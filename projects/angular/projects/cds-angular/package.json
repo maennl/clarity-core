@@ -1,5 +1,6 @@
 {
   "name": "@cds/angular",
+  "version": "6.0.4",
   "description": "Core component modules for Clarity Angular",
   "homepage": "https://core.clarity.design",
   "keywords": [

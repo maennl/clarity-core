@@ -1,5 +1,6 @@
 {
   "name": "@cds/core",
+  "version": "6.0.4",
   "license": "MIT",
   "author": "clarity",
   "description": "Clarity Design System - common components, themes, and utilties",
