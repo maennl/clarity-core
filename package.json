@@ -14,6 +14,7 @@
   ],
   "scripts": {
     "build": "npm run build --workspaces --if-present",
+    "build:me": "npm-run-all clean lint build public-api:check",
     "build:ci": "npm-run-all clean lint build test public-api:check",
     "clean": "npm run clean --workspaces --if-present",
     "commit": "cz --signoff",
