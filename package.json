@@ -1,7 +1,10 @@
 {
   "name": "@cds/core",
   "version": "6.0.4",
-  "private": true,
+  "private": false,
+  "publishConfig": {
+    "registry": "http://172.18.2.25:4873"
+  },
   "engines": {
     "node": ">=16.0.0",
     "yarn": "please-use-npm",
