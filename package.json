@@ -1,6 +1,6 @@
 {
   "name": "@cds/core",
-  "version": "6.0.4",
+  "version": "6.0.5",
   "private": false,
   "publishConfig": {
     "registry": "http://172.18.2.25:4873"
