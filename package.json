@@ -1,10 +1,7 @@
 {
   "name": "@cds/core",
-  "version": "6.0.6",
-  "private": false,
-  "publishConfig": {
-    "registry": "http://172.18.2.25:4873"
-  },
+  "version": "6.1.0",
+  "private": true,
   "engines": {
     "node": ">=16.0.0",
     "yarn": "please-use-npm",
@@ -23,7 +20,7 @@
     "git:pre_release": "git add .; git commit -m \"chore(pre-release): v$npm_package_version\"",
     "git:commit": "git add .; git commit -m \"chore(release): v$npm_package_version\"",
     "publish:local": "npm publish --registry http://172.18.2.25:4873/",
-    "publish:me": "npm-run-all git:pre_release version::patch build:me git:commit publish:local",
+    "publish:me": "npm-run-all git:pre_release version::patch build:me publish:local",
     "build:ci": "npm-run-all clean lint build test public-api:check",
     "clean": "npm run clean --workspaces --if-present",
     "commit": "cz --signoff",

@@ -1,6 +1,9 @@
 {
   "name": "@cds/core",
-  "version": "6.0.4",
+  "version": "6.1.0",
+  "publishConfig": {
+    "registry": "http://172.18.2.25:4873"
+  },
   "license": "MIT",
   "author": "clarity",
   "description": "Clarity Design System - common components, themes, and utilties",
