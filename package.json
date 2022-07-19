@@ -17,6 +17,7 @@
     "build": "npm run build --workspaces --if-present",
     "build:me": "npm-run-all clean lint build public-api:check",
     "version:patch": "npm version patch --force",
+    "version:from-git": "npm version from-git --allow-same-version --force",
     "git:pre_release": "git add .; git commit -m \"chore(pre-release): v$npm_package_version\"",
     "git:commit": "git add .; git commit -m \"chore(release): v$npm_package_version\"",
     "publish:local": "npm publish --registry http://172.18.2.25:4873/",
