@@ -1,9 +1,5 @@
 {
   "name": "@cds/angular",
-  "version": "6.1.0",
-  "publishConfig": {
-    "registry": "http://172.18.2.25:4873"
-  },
   "description": "Core component modules for Clarity Angular",
   "homepage": "https://core.clarity.design",
   "keywords": [

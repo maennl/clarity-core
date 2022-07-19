@@ -1,9 +1,5 @@
 {
   "name": "@cds/react",
-  "version": "6.1.1",
-  "publishConfig": {
-    "registry": "http://172.18.2.25:4873"
-  },
   "description": "Core component modules for Clarity React",
   "homepage": "https://core.clarity.design",
   "keywords": ["react", "design system", "clarity", "ui"],

@@ -1,6 +1,5 @@
 {
   "name": "core-ws",
-  "version": "6.1.0",
   "private": true,
   "scripts": {
     "build": "npm-run-all clean _build:tokens _build:lib _build:storybook",
