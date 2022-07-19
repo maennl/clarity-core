@@ -19,6 +19,11 @@
   "scripts": {
     "build": "npm run build --workspaces --if-present",
     "build:me": "npm-run-all clean lint build public-api:check",
+    "version:patch": "npm version patch --force",
+    "git:pre_release": "git add .; git commit -m \"chore(pre-release): v$npm_package_version\"",
+    "git:commit": "git add .; git commit -m \"chore(release): v$npm_package_version\"",
+    "publish:local": "npm publish --registry http://172.18.2.25:4873/",
+    "publish:me": "npm-run-all git:pre_release version::patch build:me git:commit publish:local",
     "build:ci": "npm-run-all clean lint build test public-api:check",
     "clean": "npm run clean --workspaces --if-present",
     "commit": "cz --signoff",
